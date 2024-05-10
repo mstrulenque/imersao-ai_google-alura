@@ -39,6 +39,9 @@ Ajudar a `locomoção no Rio Grande do Sul` através de `rotas alternativas` (es
    - userdata: Recuperar Secrets do Google Colab <br>
 
 ---
+## VISÃO GERAL 
 
+<img width="1440" alt="image" src="https://github.com/mstrulenque/imersao-ai_google-alura/assets/63933792/0096341a-1283-4bdb-af96-563f147fc98c">
 
-- https://crbm.app.br/gestao-de-rotas/index.php?class=RotaCardList&method=onWhats&key=268
+---
+Dados extraidos do site: https://crbm.app.br/gestao-de-rotas/index.php?class=RotaCardList&method=onWhats&key=268
