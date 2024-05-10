@@ -14,6 +14,8 @@ Este desafio tem o objetivo de colocar em prática todos os aprendizados da `Ime
 
 Ajudar a `locomoção no Rio Grande do Sul` através de `rotas alternativas` (estradas ainda trafegáveis) utilizando informações do Governo do Estado do Rio Grande do Sul/ Brigada Militar / Comando Rodoviário 
 
+Pessoa escreve o prompt por exemplo: `qual estrada de caxias para torres?` e é retornado a Origem, o destino e um link do google maps desta estrada alternativa. 
+
 ###OBS: Como é um projeto didático, as informações são parciais e os dados foram extraídos em 10/05/2024.
 
 
