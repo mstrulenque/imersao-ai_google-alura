@@ -19,21 +19,26 @@ Ajudar a `locomoção no Rio Grande do Sul` através de `rotas alternativas` (es
 
 ## Foram utilizados
 
-### Google Colab:
+- **Base Dados**: 
+   - Arquivo CSV: Dados Governo Rio Grande do Sul / Brigada Militar / Comando Rodoviário
+       
+- **Google AI Generative**:
+   - API Gemini, para:
+      - Embedding - Dados
+      - Embedding - Prompt
+   - Model:
+      - models/embedding-001
+           - task-type:
+               - RETRIEVAL_DOCUMENT
+               - RETRIEVAL_QUERY
+            
+- **Bibliotecas**:
+   - pandas: Importar e Tratar Dados CSV <br>
+   - numpy: Produtos Escalares / Tratamento Embeds <br>
+   - google.generativeai: Utilizacao do Gemini <br>
+   - userdata: Recuperar Secrets do Google Colab <br>
 
- - **Notebook**: Python (criação e testes de Código)
-   
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-   <img width="341" alt="image" src="https://github.com/mstrulenque/imersao-ai_google-alura/assets/63933792/ee32e6ff-f4bd-4420-8215-404cc355ab7a">
-
- - **Secrets**: Segurança (armazenamento de dados sensiveis)
-
-### Pacote
-
- - Google Generative AI (google_generativeai)
-
-### LLM
-
- - xxxx
+---
 
 
+- https://crbm.app.br/gestao-de-rotas/index.php?class=RotaCardList&method=onWhats&key=268
